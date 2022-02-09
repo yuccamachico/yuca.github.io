@@ -368,6 +368,8 @@ body > header:nth-child(2) {
   text-align: center;
   border-radius: 10px;
   line-height: 50px;
+  -webkit-box-shadow: 0px 3px 5px #00000033;
+          box-shadow: 0px 3px 5px #00000033;
 }
 .mv_btn a:hover {
   background: #f18900;
@@ -944,7 +946,7 @@ section.comments .section_title {
 .comments_back {
   width: 980px;
   max-width: 100%;
-  height: 576px;
+  height: 580px;
   background: #3e3e3e;
   margin-top: -454px;
 }
@@ -1627,6 +1629,7 @@ section.contact {
           box-shadow: 0px 3px 5px #00000033;
   border-radius: 10px;
   line-height: 50px;
+  border-bottom: none;
 }
 @media (max-width: 767px) {
   .contact_btn [type=text] {

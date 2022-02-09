@@ -360,6 +360,7 @@ body > header:nth-child(2) {
     text-align: center;
     border-radius: 10px;
     line-height: 50px;
+   box-shadow: 0px 3px 5px #00000033;
     &:hover {
       background: #f18900;
     }
@@ -840,7 +841,7 @@ section.comments .section_title {
 .comments_back {
   width: 980px;
   max-width: 100%;
-  height: 576px;
+  height: 580px;
   background: $color-main;
   margin-top: -454px;
   @include mq("sp") {
@@ -1418,9 +1419,10 @@ section.contact {
     font-weight: 700;
     margin-top: 40px;
     background: #ffaa3b;
-    box-shadow: 0px 3px 5px #00000033;
+    box-shadow:  0px 3px 5px #00000033;
     border-radius: 10px;
     line-height: 50px;
+    border-bottom: none;
     @include mq("sp") {
       width: 165px;
       text-align: center;
